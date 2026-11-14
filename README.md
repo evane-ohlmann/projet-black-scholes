@@ -51,7 +51,6 @@ Le projet se place dans le cadre simplifié du cours. Ces hypothèses rendent le
 |---|---|
 | `ProjetBS.ipynb` | Le notebook du projet, en trois étapes : formule de Black-Scholes et tests ; modèle binomial et convergence vers Black-Scholes ; coût de la garantie en cas de décès et sensibilités |
 | `table_mortalite.csv` | Table de mortalité TH 00-02 (hommes), colonnes `age` et `lx` |
-| `figures/` | Graphiques produits par le notebook |
 
 ## Démarche
 
@@ -98,7 +97,7 @@ Paramètres : S0 = K = 100 et r = 5 % (étape 2) ; S0 = K = 10 000 € et r = 3 
 
 Le graphique montre le prix binomial du Call pour n allant de 1 à 200 : il oscille autour du prix de Black-Scholes, de moins en moins à mesure que n augmente.
 
-![Convergence du prix binomial vers Black-Scholes](figures/convergence_binomial.png)
+![Convergence du prix binomial vers Black-Scholes](convergence_binomial.png)
 
 ### Coût de la garantie (assuré de 60 ans, horizon 10 ans)
 
@@ -111,8 +110,8 @@ Avec la table TH 00-02 :
 
 Le notebook trace le coût de la garantie en fonction de la volatilité, de l'âge de l'assuré et du taux sans risque. La garantie coûte plus cher quand les marchés sont plus volatils, quand l'assuré est plus âgé et quand les taux sont bas.
 
-![Sensibilité à la volatilité](figures/sensibilite_sigma.png)
-![Sensibilité à l'âge](figures/sensibilite_age.png)
+![Sensibilité à la volatilité](sensibilite_sigma.png)
+![Sensibilité à l'âge](sensibilite_age.png)
 
 ## Limites
 
