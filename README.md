@@ -112,6 +112,7 @@ Le notebook trace le coût de la garantie en fonction de la volatilité, de l'â
 
 ![Sensibilité à la volatilité](sensibilite_sigma.png)
 ![Sensibilité à l'âge](sensibilite_age.png)
+![Sensibilité au taux](sensibilite_taux.png)
 
 ## Limites
 
